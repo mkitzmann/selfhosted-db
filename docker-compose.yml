@@ -13,6 +13,7 @@ services:
       ofelia.job-run.awwesome.container: 'awwesome'
   source:
     image: mkitzmann/awwesome:latest
+    build: .
     container_name: awwesome
     restart: no
     environment:
